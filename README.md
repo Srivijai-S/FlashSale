@@ -2,36 +2,41 @@
 
 <br>
 
-![GitHub last commit](https://img.shields.io/github/last-commit/John-santhosh/React-new-e-commerce)
+![GitHub last commit](https://img.shields.io/github/last-commit/Srivijai-S/FlashSale)
 
-# React E-Commerce Website
+# Flash Sale - React E-Commerce Website
 
 ## About The Project
 
-This is a E-commerce website built with `React` allows user to purchase goods Online, user can make payment and added items to the cart and wish list items for later
+This is an e-commerce website built with `React`. It allows users to purchase goods online, manage their cart and wish list, and complete transactions. 
 
-👉 [Live Demo](https://air-store-e-commerce-john.netlify.app/)
+👉 [Live Demo](https://your-live-demo-link.com)
 
-## Build with:
+## Built With:
 
-» React  
- » FireBase  
- » Styled Components  
+- React  
+- Firebase (for backend services)  
+- Styled Components (for styling)  
+- [Any other technology you use]
+
 <br/>
 
 # Screenshot of the project 📸
 
 <br/>
- <h2 align=center>Home Page 🏡</h2>
+<h2 align="center">Home Page 🏡</h2>
 
 ![Sample image](./public/screenshot.png)
 
 ## Installation
 
-```bash
-  git clone https://github.com/John-santhosh/React-new-e-commerce
+To set up the project locally, follow these steps:
 
-  npm intall
+```bash
+  git clone https://github.com/Srivijai-S/FlashSale.git
+  cd FlashSale
+  npm install
+  npm start
 
   npm run dev
 ```
