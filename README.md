@@ -3,9 +3,9 @@
 ## 💡 Overview
 
 **FlashSale** is a fully responsive, feature-packed e-commerce platform built for the ultimate shopping experience during flash sales. With real-time countdowns, dynamic product displays, and smooth transaction processes, **FlashSale** guarantees that every shopper gets the best deals while stocks last!
-
+<center>
 ![image](https://github.com/user-attachments/assets/37c27a8d-790e-4b03-aa49-c4d59da840de)
-
+</center>
 
 ---
 
