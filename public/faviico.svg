@@ -1,0 +1,42 @@
+<svg
+    width="120"
+    height="120"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <style>
+        @keyframes flashGlow {
+            0%, 100% { opacity: 0.3; filter: drop-shadow(0 0 4px #FFC107); }
+            50% { opacity: 1; filter: drop-shadow(0 0 12px #FF9800); }
+        }
+
+        .flash-icon {
+            animation: flashGlow 2s infinite;
+        }
+    </style>
+
+    <!-- Shopping Cart Icon -->
+    <path d="M3 3h3l3 9h8l3-6H7" stroke="url(#cartGradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="9" cy="19" r="2" fill="url(#wheelGradient)"/>
+    <circle cx="17" cy="19" r="2" fill="url(#wheelGradient)"/>
+
+    <!-- Flash Icon -->
+    <path class="flash-icon" d="M13 2L9 12h4l-1 8 6-10h-4l2-6h-3z" fill="url(#flashGradient)" stroke-width="1.5" stroke="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Gradients -->
+    <defs>
+        <linearGradient id="cartGradient" x1="3" y1="3" x2="21" y2="19" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#333" />
+            <stop offset="1" stop-color="#777" />
+        </linearGradient>
+        <linearGradient id="flashGradient" x1="9" y1="2" x2="15" y2="18" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFC107" />
+            <stop offset="1" stop-color="#FF9800" />
+        </linearGradient>
+        <radialGradient id="wheelGradient" cx="0.5" cy="0.5" r="0.5">
+            <stop stop-color="#888" />
+            <stop offset="1" stop-color="#444" />
+        </radialGradient>
+    </defs>
+</svg>

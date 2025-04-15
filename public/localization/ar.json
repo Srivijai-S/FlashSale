@@ -1,0 +1,790 @@
+{
+	"layout": {
+		"sidebar": {
+			"dashboard": "لوحة القيادة",
+			"reservation": "حجز",
+			"guest_history": "تاريخ الضيف",
+			"housekeeping": "التدبير المنزلي",
+			"settings": "إعدادات",
+			"facility_settings": "إعدادات المنشأة"
+		},
+		"topbar": {
+			"dashboard": "لوحة القيادة",
+			"reservation": "حجز",
+			"arrival": "الوصول",
+			"departure": "رحيل",
+			"guest_history": "تاريخ الضيف",
+			"housekeeping": "التدبير المنزلي",
+			"settings": "إعدادات",
+			"facility_settings": "إعدادات المنشأة",
+			"update_profile": "تحديث الملف الشخصي"
+		},
+		"profile_icon_menu": {
+			"manage_account": "إدارة الحساب",
+			"logout": "تسجيل الخروج"
+		},
+		"plus_icon": {
+			"check_in": "تحقق في",
+			"check_out": "تسجيل المغادرة",
+			"reservation": "حجز"
+		}
+	},
+	"pages": {
+		"login_page": {
+			"welcome_to_guest_hives": "مرحباً بكم في Guest Hives",
+			"login_to_your_account": "تسجيل الدخول إلى حسابك",
+			"username": "اسم المستخدم",
+			"password": "كلمة المرور",
+			"login": "تسجيل الدخول",
+			"alerts": {
+				"please_enter_the_username": "الرجاء إدخال اسم المستخدم",
+				"please_enter_the_password": "الرجاء إدخال كلمة المرور",
+				"invalid_username_or_password": "اسم المستخدم أو كلمة المرور غير صالحة",
+				"log_out_successfully": "تسجيل الخروج بنجاح",
+				"password_mismatch": "كلمة المرور غير متطابقة",
+				"user_registration_failed": "فشل تسجيل المستخدم"
+			}
+		},
+		"logout": {
+			"are_you_sure_you_want_to_logout": "هل أنت متأكد أنك تريد تسجيل الخروج",
+			"yes": "نعم",
+			"no": "لا",
+			"successfully": "تم تسجيل الخروج بنجاح",
+			"failed": "فشل تسجيل الخروج!"
+		},
+		"manage_account_page": {
+			"update_profile": "تحديث الملف الشخصي",
+			"admin": "مسؤل",
+			"receptionist": "موظف استقبال",
+			"login_name": "اسم تسجيل الدخول",
+			"username": "اسم المستخدم",
+			"contact": "رقم الجوال ",
+			"profile_picture": "صورة الملف الشخصي",
+			"password": "كلمة المرور",
+			"confirm_password": "تأكيد كلمة المرور",
+			"confirm": "تأكيد",
+			"update": "تحديث",
+			"cancel": "إلغاء",
+			"save": "يحفظ",
+			"toast": {
+				"update_success": "تم تحديث إعدادات الملف الشخصي بنجاح"
+			}
+		},
+		"home_page": {
+			"room_occupancy": {
+				"room_occupancy": "إشغال الغرفة",
+				"total_rooms": "إجمالي الغرف",
+				"vacant": "شاغر",
+				"blocked": "محظور",
+				"allocated": "مُخصصة",
+				"occupied": "مشغول",
+				"reserved": "محجوز"
+			},
+			"housekeeping": {
+				"housekeeping": "التدبير المنزلي",
+				"clean": "ينظف",
+				"assigned": "مُكَلَّف",
+				"dirty": "متسخ"
+			},
+			"room_view_section": {
+				"showing_results_for": "عرض النتائج لـ",
+				"all": "الكل",
+				"room_view": "منظر الغرفة",
+				"floor_view": "منظر الطابق",
+				"search_by_room_number": "البحث حسب رقم الغرفة",
+				"reset": "إعادة ضبط",
+				"expand": "يوسع",
+				"vacant_room": "غرفة شاغرة",
+				"occupied_room": "غرفة مشغولة",
+				"reserved_room": "غرفة محجوزة",
+				"reserve": "احجز",
+				"check_in": "تحقق في",
+				"move_to_dirty": "نقل إلى المتسخة",
+				"block": "حظر الغرفة",
+				"check_out": "تسجيل المغادرة",
+				"guest_details": "تفاصيل الضيف",
+				"room_shift": "تحويل الغرفة"
+			},
+			"todays_arrival_and_departure": {
+				"todays_arrival_and_departure": "وصول ومغادرة اليوم",
+				"arrival": "الوصول",
+				"arrived": "وصل",
+				"expected": "مُتوقع",
+				"departure": "رحيل",
+				"departed": "غادر"
+			},
+			"todays_activity": {
+				"todays_activity": "نشاط اليوم",
+				"arrival": "الوصول",
+				"departure": "رحيل",
+				"payment_due": "الدفع المستحق",
+				"due": "المستحق",
+				"paid": "مدفوع",
+				"pax": "عدد الأشخاص",
+				"record_payment": "تسجيل الدفع",
+				"payment_history": "سجل المدفوعات",
+				"no_data_found": "لم يتم العثور على بيانات"
+			},
+			"block_room_popup": {
+				"remarks": "ملاحظات",
+				"cancel": "إلغاء",
+				"save": "يحفظ",
+				"please_be_aware_of_the_dates_to_avoid_scheduling_issues": "يرجى الانتباه إلى التواريخ لتجنب مشاكل الجدولة"
+			},
+			"alert": {
+				"no_results_found": "لم يتم العثور على نتائج",
+				"enter_a_room_number_to_search": "أدخل رقم الغرفة للبحث"
+			}
+		},
+		"guest_history_page": {
+			"search_by_name_or_number": "البحث حسب الاسم أو الرقم",
+			"select_room_type": "نوع الغرفة",
+			"all_room_types": "جميع أنواع الغرف",
+			"rows_per_page": "الصفوف في الصفحة",
+			"tabs": {
+				"arrival": "الوصول",
+				"departure": "رحيل",
+				"all": "الكل",
+				"draft": "المسودات",
+				"blacklist": "القائمة السوداء"
+			},
+			"filters": {
+				"today": "اليوم",
+				"yesterday": "أمس",
+				"this_week": "هذا الاسبوع",
+				"last_week": "الأسبوع الماضي",
+				"last_month": "الشهر الماضي",
+				"custom": "تخصيص"
+			},
+			"custom": {
+				"from_date": "من تاريخ",
+				"to_date": "إلى تاريخ",
+				"select_date": "اختر التاريخ",
+				"cancel": "إلغاء",
+				"search": "يبحث"
+			},
+			"table": {
+				"draft": "المسودات",
+				"serial_number": "الرقم التسلسلي",
+				"guest_name": "اسم الضيف",
+				"number_of_rooms": "عدد الغرف",
+				"purpose": "غاية",
+				"booking_source": "مصدر الحجز",
+				"occupation": "مهنة",
+				"action": "الإجراء",
+				"address": "عنوان",
+				"mail": "البريد الإلكتروني",
+				"signature": "إمضاء",
+				"document": "الوثيقة",
+				"invoice_number": "رقم الفاتورة",
+				"heading_to": "متجه إلى",
+				"room_number": "الغرفة رقم",
+				"room_type": "نوع الغرفة",
+				"stay_type": "نوع الإقامة",
+				"pax": "عدد الأشخاص",
+				"arrival": "الوصول",
+				"departure": "رحيل",
+				"extra_person": "شخص إضافي",
+				"room_rent": "ايجار الغرف",
+				"blocked_on": "محظور في"
+			},
+			"action_button": {
+				"record_payment": "تسجيل الدفع",
+				"check_out": "تسجيل المغادرة",
+				"payment_history": "سجل المدفوعات",
+				"edit_arrival": "تعديل الوصول",
+				"room_shift": "تحويل الغرفة",
+				"room_shift_history": "تاريخ تحويل الغرف",
+				"extend_stay": "تمديد الإقامة",
+				"delete": "يمسح",
+				"print_invoice": "طباعة الفاتورة",
+				"block": "حظر",
+				"blocked": "محظور",
+				"unblock": "فك الحظر",
+				"edit_details": "تعديل المغادرة",
+				"undo_departure": "تراجع عن المغادرة"
+			},
+			"block_guest_popup": {
+				"please_enter_the_reason_for_blocking": "الرجاء إدخال سبب الحظر",
+				"reason_for_blocking": "سبب الحجب",
+				"cancel": "إلغاء",
+				"save": "يحفظ"
+			},
+			"undo_departure_popup": {
+				"do_you_want_to_undo_this_check-out": "هل تريد التراجع عن تسجيل المغادرة هذا",
+				"invoice_number": "رقم الفاتورة",
+				"yes": "نعم",
+				"no": "لا"
+			},
+			"alert": {
+				"check_in_details_for_x_updated_successfully": "تم تحديث تفاصيل تسجيل الوصول لـ[] بنجاح",
+				"payment_by_x_successfully_saved": "تم حفظ الدفع من قبل [] بنجاح",
+				"are_you_sure_you_want_to_delete": "هل أنت متأكد أنك تريد الحذف",
+				"draft_of_x_successfully_updated": "تم تحديث مسودة [] بنجاح",
+				"draft_of_x_successfully_deleted": "تم حذف مسودة [] بنجاح",
+				"blocked_successfully": "<strong>{{name}}</strong> تم حظره بنجاح",
+				"is_ready_to_occupy": "<strong>{{name}}</strong> جاهز للإشغال",
+				"are_you_sure_you_want_to_unblock": "هل أنت متأكد أنك تريد إلغاء الحظر؟",
+				"unblocked_successfully": "<strong>{{name}}</strong> تم إلغاء الحظر بنجاح",
+				"departure_for_x_is_successfully_updated": "تم تحديث المغادرة لـ [] بنجاح"
+			},
+			"confirmation": {
+				"delete_guest": "هل أنت متأكد أنك تريد حذف معلومات الضيف؟",
+				"unblock_guest": "هل أنت متأكد أنك تريد فك الحظر عن {{name}}؟"
+			},
+			"toast": {
+				"reverted_success": "تم التراجع بنجاح",
+				"guest_delete_success": "تم حذف الضيف <strong>{{name}}</strong> بنجاح"
+			}
+		},
+		"housekeeping": {
+			"assign_task": {
+				"housekeeping": "التدبير المنزلي",
+				"search_by_room_number": "البحث حسب رقم الغرفة",
+				"all_room_types": "جميع أنواع الغرف",
+				"room_type": "نوع الغرفة",
+				"all_floors": "جميع الطوابق",
+				"floor": "طابق",
+				"housekeeper": "مدبر المنزل",
+				"dirty": "متسخ",
+				"assigned": "مُكَلَّف",
+				"clean": "ينظف",
+				"vacant": "شاغر",
+				"occupied": "مشغول",
+				"reserved": "محجوز",
+				"cleaning_summary": "ملخص التنظيف",
+				"assign_room_number": "تعيين رقم الغرفة",
+				"select_housekeepers": "اختر مدبري المنازل",
+				"no_housekeepers_available": "لا توجد مدبرات منزل متوفرة",
+				"cancel": "إلغاء",
+				"save": "يحفظ",
+				"alert": {
+					"move_to_clean": "هل أنت متأكد أنك تريد نقل الغرفة [] إلى الغرف النظيفة؟",
+					"move_to_dirty": "هل أنت متأكد أنك تريد نقل الغرفة {{room_no}} إلى الغرف القذرة؟",
+					"room_assigned_for_cleaning": "تم تعيينه للتنظيف",
+					"room_moved_to_clean_rooms": "تم نقله إلى الغرف النظيفة",
+					"room_moved_to_dirty_rooms": "تم نقله إلى الغرف المتسخة",
+					"housekeeper_x_successfully_added": "تم إضافة مدبرة المنزل [] بنجاح",
+					"housekeeper_x_details_updated_successfully": "تم تحديث تفاصيل مدبرة المنزل [] بنجاح",
+					"are_you_sure_you_want_to_delete_housekeeper": "هل أنت متأكد أنك تريد حذف مدبرة المنزل؟",
+					"housekeeper_x_deleted_successfully": "تم حذف مدبرة المنزل [] بنجاح",
+					"please_fill_the_name": "يرجى إدخال الاسم",
+					"please_enter_the_age": "يرجى إدخال العمر",
+					"please_enter_the_address": "يرجى إدخال العنوان",
+					"please_select_the_gender": "يرجى اختيار الجنس",
+					"please_enter_the_phone_number": "يرجى إدخال رقم الهاتف",
+					"please_select_the_state": "يرجى اختيار الدولة",
+					"please_select_the_city": "يرجى اختيار المدينة",
+					"please_enter_a_valid_phone_number": "يرجى إدخال رقم هاتف صالح",
+					"Please_upload_id_proof": "يرجى رفع إثبات الهوية",
+					"please_upload_photo": "يرجى رفع الصورة",
+					"please_upload_a_image": "يرجى تحميل صورة"
+				}
+			},
+			"housekeeper": {
+				"search_by_name_or_number": "البحث حسب الاسم أو الرقم",
+				"assign_task": "تعيين مهمة",
+				"add_housekeeper": "إضافة مدبر منزل",
+				"table": {
+					"serial_number": "الرقم التسلسلي",
+					"name": "اسم",
+					"age": "العمر",
+					"gender": "الجنس",
+					"address": "عنوان",
+					"id_proof": "إثبات الهوية",
+					"actions": "الإجراء"
+				},
+				"toast": {
+					"updated_sucess": "تم تحديث تفاصيل عامل النظافة {{name}} بنجاح",
+					"added_success": "تمت إضافة عامل النظافة {{name}} بنجاح",
+					"invalid_file_type": "نوع الملف غير صالح. يرجى تحميل ملفات الصور فقط (JPG, JPEG, PNG).",
+					"something_went_wrong": "حدث خطأ ما!",
+					"housekeeper": "عامل النظافة",
+					"successfully_deleted.": "تم الحذف بنجاح."
+				},
+				"delete_housekeeper_popup": {
+					"are_you_sure_you_want_to_delete_housekeeper": "هل أنت متأكد أنك تريد حذف مدبر المنزل",
+					"yes": "نعم",
+					"no": "لا"
+				}
+			},
+			"housekeeper_form": {
+				"new_housekeeper_registration": "تسجيل عامل نظافة جديد",
+				"edit_housekeeper_details": "تعديل تفاصيل عامل النظافة",
+				"name": "اسم",
+				"age": "العمر",
+				"address": "عنوان",
+				"gender": "الجنس",
+				"contact_number": "رقم الجوال",
+				"state": "ولاية",
+				"city": "مدينة",
+				"upload_id_proof": "رفع إثبات الهوية",
+				"upload_photo": "رفع الصورة",
+				"cancel": "إلغاء",
+				"save": "يحفظ",
+				"update": "تحديث"
+			}
+		},
+		"facility_settings": {
+			"total_number_of_room": "العدد الإجمالي للغرف",
+			"switch_to_floor_view": "التبديل إلى عرض الطابق",
+			"switch_to_room_view": "التبديل إلى عرض الغرف",
+			"room_type": "نوع الغرفة",
+			"click_the_plus_icon_to_add_rooms": "انقر على رمز الإضافة لإضافة الغرف",
+			"to_begin_click_on_the": "للبدء، انقر على",
+			"edit_details": "تعديل التفاصيل",
+			"delete": "يمسح",
+			"room_type_form": {
+				"enter_room_type": "أدخل رقم الغرفة",
+				"select_bed_type": "حدد نوع السرير",
+				"select_maximum_number_of_adults": "حدد الحد الأقصى للبالغين",
+				"select_maximum_number_of_children": "حدد الحد الأقصى للأطفال",
+				"enter_room_base_price": "أدخل السعر الأساسي للغرفة",
+				"enter_rent_per_person": "أدخل الإيجار للشخص الواحد",
+				"per_day": "في اليوم الواحد",
+				"save": "يحفظ",
+				"cancel": "إلغاء",
+				"update": "تحديث"
+			},
+			"room_number_form": {
+				"enter_room_number": "أدخل رقم الغرفة",
+				"select_floor": "حدد الطابق",
+				"select_amenities": "اختر وسائل الراحة",
+				"cleaning_status": "حالة التنظيف",
+				"save": "يحفظ",
+				"cancel": "إلغاء",
+				"Cancel": "إلغاء",
+				"update": "تحديث",
+				"Next": "التالي",
+				"Update": "تحديث"
+			},
+			"alerts": {
+				"room_type_must_be_minimum_3_characters": "يجب أن يكون نوع الغرفة 3 أحرف على الأقل",
+				"room_type_is_required": "نوع الغرفة مطلوب",
+				"bed_type_is_required": "يجب تحديد نوع السرير",
+				"max_adult_is_required": "يجب تحديد الحد الأقصى للبالغين",
+				"max_children_is_required": "يجب تحديد الحد الأقصى للأطفال",
+				"base_price_is_required": "يجب إدخال السعر الأساسي",
+				"rent_per_person_is_required": "يجب إدخال الإيجار لكل شخص",
+				"room_number_is_required": "يجب إدخال رقم الغرفة",
+				"floor_is_required": "يجب تحديد الطابق",
+				"amenity_is_required": "يجب تحديد وسائل الراحة",
+				"cleaning_status_is_required": "يجب تحديد حالة التنظيف",
+				"please_enter_a_room_number": "يرجى إدخال رقم الغرفة",
+				"please_select_floor": "يرجى تحديد الطابق",
+				"please_select_amenity": "يرجى تحديد وسائل الراحة",
+				"please_select_cleaning_status": "يرجى تحديد حالة التنظيف"
+			},
+			"confirmation": {
+				"delete_room": "هل أنت متأكد أنك تريد حذف الغرفة رقم: {{room_no}}؟",
+				"delete_room_type": "هل أنت متأكد أنك تريد حذف نوع الغرفة {{room_type_name}}؟"
+			},
+			"toast": {
+				"room_type_created": "تم إنشاء نوع الغرفة <strong>{{room_type_name}}</strong> بنجاح.",
+				"room_type_updated": "تم تحديث نوع الغرفة <strong>{{room_type_name}}</strong> بنجاح.",
+				"extra_person_updated_successfully": "تم تحديث الشخص الإضافي بنجاح",
+				"floor_room_config_success": "تم تكوين عرض الطابق والغرفة بنجاح",
+				"error_while_floor_config": "حدث خطأ أثناء تكوين الطابق"
+			}
+		},
+		"booking_form": {
+			"customer_information": "معلومات العميل",
+			"nationality": "جنسية",
+			"indian": "هندي",
+			"foreigner": "أجنبي",
+			"mobile_number": "رقم الجوال",
+			"alternate_mobile_number": "رقم الجوال البديل (اختياري)",
+			"optional": "اختياري",
+			"mail_id": "(اختياري) البريد الإلكتروني",
+			"id_type": "نوع الهوية",
+			"name": "اسم",
+			"country": "دولة",
+			"state": "ولاية",
+			"city": "مدينة",
+			"passport_number": "رقم جواز السفر",
+			"address": "عنوان",
+			"occupation": "(اختياري) مهنة",
+			"booking_source": "مصدر الحجز",
+			"purpose_of_visit": "(اختياري) غرض الزيارة",
+			"room_information": "معلومات الغرفة",
+			"inclusive_of_tax": "شامل الضريبة",
+			"check_in_date_and_time": "تاريخ ووقت تسجيل الوصول",
+			"check_out_date_and_time": "تاريخ ووقت تسجيل المغادرة",
+			"select_room_type": "نوع الغرفة",
+			"room_number": "الغرفة رقم",
+			"number_of_adults": "عدد البالغين",
+			"number_of_children": "عدد الأطفال",
+			"stay_type": "نوع الإقامة",
+			"reservation_type": "نوع الحجز",
+			"number_of_rooms": "عدد الغرف",
+			"room_rent": "ايجار الغرف",
+			"billing_information": "معلومات الفواتير",
+			"billing_type": "نوع الفاتورة",
+			"customer": "عميل",
+			"company": "شركة",
+			"gstin": "GSTIN",
+			"company_name": "اسم الشركة",
+			"customer_name": "اسم العميل",
+			"phone_number": "رقم الجوال",
+			"reservation_price": "سعر الحجز",
+			"total_amount": "المبلغ الإجمالي",
+			"due_amount": "المبلغ المستحق",
+			"total_advance_paid": "إجمالي الدفعة المقدمة",
+			"enter_payment": "أدخل الدفعة",
+			"enter_payment_optional": "(اختياري) أدخل الدفعة",
+			"payment_mode": "طريقة الدفع",
+			"payment_mode_optional": "(اختياري) طريقة الدفع",
+			"remarks": "(اختياري) ملاحظات",
+			"heading_to": "متجه إلى",
+			"grace_time": "فترة السماح (ساعة)",
+			"receipt": "إيصال",
+			"yes": "نعم",
+			"no": "لا",
+			"draft": "مسودة",
+			"quick_reservation": "الحجز السريع",
+			"check_in": "تحقق في",
+			"check_out": "تسجيل الخروج",
+			"clear": "مسح",
+			"update": "تحديث",
+			"save": "حفظ",
+			"tariff": "التعرفة",
+			"hide": "إخفاء",
+			"upload": "رفع",
+			"confirm": "تأكيد",
+			"clear_signature": "مسح التوقيع",
+			"close": "إغلاق",
+			"align_your_signature_within_the_frame_and_tap_confirm": "قم بمحاذاة توقيعك داخل الإطار واضغط على تأكيد",
+			"front": "الجهة الأمامية",
+			"back": "الجهة الخلفية",
+			"start_uploading_the_front_side_of_the_document": "ابدأ برفع الجهة الأمامية من الوثيقة",
+			"cancel": "إلغاء",
+			"alert": {
+				"phone_number_is_required": "رقم الهاتف مطلوب",
+				"company_name_is_required": "اسم الشركة مطلوب",
+				"address_is_required": "العنوان مطلوب",
+				"enter_number_from_0_to_12": "أدخل الرقم من 0 إلى 12",
+				"please_select_the_id_type": "يرجى تحديد نوع الهوية",
+				"please_enter_your_full_name": "يرجى إدخال اسمك الكامل",
+				"please_select_the_state": "يرجى تحديد الولاية",
+				"please_select_the_city": "يرجى تحديد المدينة",
+				"please_enter_the_address": "يرجى إدخال العنوان",
+				"please_select_booking_source": "يرجى تحديد مصدر الحجز",
+				"check_in_date_must_be_a_valid_date": "يجب أن يكون تاريخ تسجيل الوصول تاريخًا صالحًا",
+				"check_out_date_must_be_a_valid_date": "يجب أن يكون تاريخ المغادرة تاريخًا صالحًا",
+				"room_type_is_required": "نوع الغرفة مطلوب",
+				"room_number_is_required": "رقم الغرفة مطلوب",
+				"number_of_adults_is_required": "عدد البالغين مطلوب",
+				"number_of_children_is_required": "عدد الأطفال مطلوب",
+				"stay_type_is_required": "نوع الإقامة مطلوب",
+				"room_rent_is_required": "إيجار الغرفة مطلوب",
+				"please_enter_a_valid_email_address": "يرجى إدخال عنوان بريد إلكتروني صالح",
+				"please_enter_a_valid_number": "يرجى إدخال رقم صالح",
+				"payment_should_be_lesser_than_the_total_amount": "يجب أن يكون الدفع أقل من المبلغ الإجمالي",
+				"payment_mode_is_required": "وضع الدفع مطلوب",
+				"reservation_type_is_required": "نوع الحجز مطلوب",
+				"check_out_date_must_be_greater_than_check_in_date": "يجب أن يكون تاريخ المغادرة بعد تاريخ الوصول",
+				"please_upload_a_image": "يرجى تحميل صورة",
+				"front_portion_of_the_image_is_missing": "الجزء الأمامي من الصورة مفقود",
+				"back_portion_of_the_image_is_missing": "الجزء الخلفي من الصورة مفقود",
+				"guest_signature_required": "توقيع الضيف مطلوب",
+				"checkout_date_for_this_room_is": "اريخ المغادرة لهذا الغرفة هو",
+				"guest_image_required": "صورة الضيف مطلوبة",
+				"customer_blocked_due_to": "تم حظر العميل بسبب",
+				"draft_successfully_saved": "تم حفظ المسودة لـ {{name}} بنجاح",
+				"draft_successfully_deleted": "تم حذف المسودة لـ <strong>{{name}}</strong> بنجاح",
+				"mobile_number_is_required": "رقم الجوال مطلوب",
+				"name_is_required": "الاسم مطلوب",
+				"room_count_is_required": "عدد الغرف مطلوب",
+				"payment_should_be_less_than_or_equal_to": "يجب أن يكون المبلغ المدفوع أقل من أو يساوي {{dueAmount}}",
+				"child_count_cannot_exceed_50": "عدد الأطفال لا يمكن أن يتجاوز 50",
+				"adult_count_cannot_exceed_50": "عدد البالغين لا يمكن أن يتجاوز 50",
+				"no_outstanding_balances": "لا توجد أرصدة مستحقة"
+			},
+			"toast": {
+				"reservation_updated": "تم تحديث الحجز لـ <strong>{{name}}</strong> بنجاح.",
+				"reservation_cancelled": "تم إلغاء الحجز لـ <strong>{{name}}</strong> بنجاح",
+				"reservation_success": "تم الحجز لـ <strong>{{name}}</strong> بنجاح.",
+				"checkin_updated": "تم تحديث تفاصيل تسجيل الوصول لـ <strong>{{name}}</strong> بنجاح.",
+				"checkin_success": "تم تسجيل الوصول لـ <strong>{{name}}</strong> بنجاح.",
+				"checkout_updated": "تم تحديث تفاصيل المغادرة لـ <strong>{{name}}</strong> بنجاح.",
+				"checkout_success": "تمت المغادرة لـ <strong>{{name}}</strong> بنجاح.",
+				"draft_updated": "تم تحديث المسودة لـ <strong>{{name}}</strong> بنجاح.",
+				"draft_saved": "تم حفظ المسودة لـ <strong>{{name}}</strong> بنجاح.",
+				"select_valid_image": "الملف المحدد ليس صورة صالحة",
+				"file_size_exceed": "حجم الملف يتجاوز الحد المسموح به 5 ميجابايت",
+				"max_10_rooms": "يُسمح فقط بـ 10 غرف كحد أقصى",
+				"invalid_username_or_password": "اسم المستخدم أو كلمة المرور غير صحيحة!",
+				"error_moving_room_to_clean": "خطأ أثناء نقل الغرفة إلى التنظيف",
+				"another_reservation_found": "تم العثور على حجز آخر في التاريخ المحدد"
+			}
+		},
+		"reservation_list_page": {
+			"select_room_type": "نوع الغرفة",
+			"all_room_types": "جميع أنواع الغرف",
+			"search_by_name_or_number": "البحث حسب الاسم أو الرقم",
+			"new_reservation": "حجز جديد",
+			"serial_number": "الرقم التسلسلي",
+			"guest_name": "اسم الضيف",
+			"mail_id": "البريد الإلكتروني",
+			"address": "عنوان",
+			"number_of_rooms": "عدد الغرف",
+			"advance_paid": "إجمالي الدفعة المقدمة",
+			"actions": "الإجراء",
+			"room_number": "الغرفة رقم",
+			"room_type": "نوع الغرفة",
+			"pax": "عدد الأشخاص",
+			"arrival": "الوصول",
+			"departure": "رحيل",
+			"booked_on": "تم الحجز في",
+			"room_rent": "ايجار الغرف",
+			"action": {
+				"check_in": "تحقق في",
+				"payment_history": "سجل المدفوعات",
+				"record_payment": "تسجيل الدفع",
+				"cancel_reservation": "إلغاء الحجز",
+				"room_shift": "تحويل الغرفة",
+				"extend_stay": "تمديد الإقامة",
+				"edit_reservation": "تعديل الحجز"
+			}
+		},
+		"invoice_page": {
+			"s_no": "الرقم التسلسلي",
+			"room_no": "الغرفة رقم",
+			"email_": "البريد الإلكتروني",
+			"contact_no": ": رقم الجوال",
+			"date_": ": تاريخ",
+			"name": "اسم",
+			"mobile": "رقم الجوال",
+			"occupation": "مهنة",
+			"address": "عنوان",
+			"pax": "عدد الأشخاص",
+			"purpose": "غاية",
+			"date": "تاريخ",
+			"heading_to": "متجه إلى",
+			"signature": "إمضاء",
+			"tax_invoice": ": فاتورة ضريبية",
+			"invoice_date": "تاريخ الفاتورة",
+			"invoice_number": "رقم الفاتورة",
+			"GSTIN": "GSTIN",
+			"bill_to": "المستفيد من الفاتورة",
+			"contact": "رقم الجوال",
+			"email": "البريد الإلكتروني",
+			"serial_number": "الرقم التسلسلي",
+			"extra_persons": "شخص إضافي",
+			"description": "وصف",
+			"room": "غرفة",
+			"hsn_sac": "HSN/SAC",
+			"total_base_price": "إجمالي السعر الأساسي",
+			"base_price": "السعر الأساسي",
+			"days": "أيام",
+			"sgst": "SGST",
+			"cgst": "CGST",
+			"net_rent": "الإيجار الصافي",
+			"subtotal": "المجموع الفرعي",
+			"rounding_off": "التقريب",
+			"total": "الإجمالي",
+			"regardless_of_the_billing_instruction_you_are_held_personally_liable_for_the_total_amount_of_this_bill": "بغض النظر عن تعليمات الفوترة، فإنك تتحمل المسؤولية الشخصية عن المبلغ الإجمالي لهذه الفاتورة",
+			"customer_signature": "توقيع العميل",
+			"cashier_signature": "توقيع أمين الصندوق"
+		},
+		"receipt_page": {
+			"payment_receipt": "إيصال الدفع",
+			"receipt_number": "رقم الإيصال",
+			"payment_date": "تاريخ الدفع",
+			"GSTIN": "GSTIN",
+			"customer_name": "اسم العميل",
+			"amount_received_in_words": "المبلغ المستلم كتابة",
+			"payment_mode": "طريقة الدفع",
+			"received_amount": "المبلغ المستلم",
+			"customer_signature": "توقيع العميل",
+			"cashier_signature": "توقيع أمين الصندوق"
+		}
+	},
+	"common_components": {
+		"buttons": {
+			"next": "التالي"
+		},
+		"alert": {
+			"something_went_wrong": "حدث خطأ ما"
+		},
+		"record_payment": {
+			"record_payment": "تسجيل الدفع",
+			"date": "تاريخ",
+			"amount": "أدخل الدفعة",
+			"payment_mode": "طريقة الدفع",
+			"remarks": "ملاحظات",
+			"payment_due": "الدفع المستحق",
+			"cancel": "إلغاء",
+			"save": "يحفظ"
+		},
+		"payments": {
+			"payments": "المدفوعات",
+			"payment_history": "سجل المدفوعات",
+			"serial_number": "الرقم التسلسلي",
+			"date": "تاريخ",
+			"amount_paid": "المبلغ المدفوع",
+			"payment_mode": "طريقة الدفع",
+			"remarks": "ملاحظات",
+			"action": "الإجراء",
+			"due": "المستحق",
+			"total": "الإجمالي",
+			"total_price": "المبلغ الإجمالي",
+			"invoice_price": "سعر الفاتورة",
+			"paid_amount": "المبلغ المدفوع",
+			"required": "مطلوب"
+		},
+		"extend_stay_popup": {
+			"extend_stay": "تمديد الإقامة",
+			"check_in_date_and_time": "تاريخ ووقت تسجيل الوصول",
+			"check_out_date_and_time": "تاريخ ووقت تسجيل المغادرة",
+			"confirm": "تأكيد",
+			"cancel": "إلغاء",
+			"alert": {
+				"check_in_date_must_be_a_valid_date": "يجب أن يكون تاريخ تسجيل الوصول تاريخًا صالحًا",
+				"check_out_date_must_be_a_valid_date": "يجب أن يكون تاريخ المغادرة تاريخًا صالحًا",
+				"check_out_date_must_be_greater_than_previous_check_out_date": "يجب أن يكون تاريخ تسجيل المغادرة أكبر من تاريخ تسجيل المغادرة السابق"
+			},
+			"toast": {
+				"checkin_extended": "تم تمديد تسجيل الوصول لـ <strong>{{name}}</strong> في الغرفة <strong>{{roomNo}}</strong> بنجاح.",
+				"reservation_extended": "تم تمديد الحجز لـ <strong>{{name}}</strong> في الغرفة <strong>{{roomNo}}</strong> بنجاح.",
+				"extented_stay": "تمديد الإقامة قبل تغيير الغرفة"
+			}
+		},
+		"room_shift_popup": {
+			"room_shift": "تحويل الغرفة",
+			"room_type": "نوع الغرفة",
+			"room_number": "الغرفة رقم",
+			"number_of_adults": "عدد البالغين",
+			"number_of_children": "عدد الأطفال",
+			"room_rent": "ايجار الغرف",
+			"select_room_shift_reason": "اختر سبب تغيير الغرفة",
+			"inclusive_of_tax": "شامل الضريبة",
+			"cancel": "إلغاء",
+			"confirm": "تأكيد",
+			"alert": {
+				"room_number_is_required": "رقم الغرفة مطلوب",
+				"number_of_adults_is_required": "عدد البالغين مطلوب",
+				"stay_type_is_required": "نوع الإقامة مطلوب",
+				"room_rent_is_required": "إيجار الغرفة مطلوب",
+				"room_shift_reason_is_required": "سبب تغيير الغرفة مطلوب",
+				"room_shifted_for_name_from_room_to_room": "تم تحويل الغرفة لـ {{name}} من الغرفة {{oldRoomNo}} إلى الغرفة {{newRoomNo}}",
+				"another_reservation_found_on_the_selected_date": "تم العثور على حجز آخر في التاريخ المحدد",
+				"extend_room_stay_before_shifting": "تمديد الإقامة قبل تغيير الغرفة"
+			},
+			"toast": {
+				"room_shifted_message": "تم تحويل الغرفة لـ <strong>{{name}}</strong> من الغرفة <strong>{{oldRoomNo}}</strong> إلى الغرفة <strong>{{newRoomNo}}</strong>."
+			}
+		},
+		"extra_person_popup": {
+			"add_person": "إضافة شخص",
+			"remove_person": "إزالة الشخص",
+			"name": "اسم",
+			"rent": "إيجار",
+			"per_day": "في اليوم الواحد",
+			"inc_of_tax": "شامل الضريبة",
+			"confirm": "تأكيد",
+			"cancel": "إلغاء",
+			"alert": {
+				"name_is_required": "الاسم مطلوب",
+				"rent_is_required": "الإيجار مطلوب",
+				"extend_stay_before_adding_the_person": "تمديد الإقامة قبل إضافة الشخص",
+				"maximum_occupancy_reached_for_this_room": "الحد الأقصى للإشغال لهذه الغرفة تم بلوغه",
+				"are_you_sure_you_want_to_add_a_person": "هل أنت متأكد أنك تريد إضافة شخص",
+				"min_3_characters": "يجب أن يكون الحد الأدنى 3 أحرف"
+			},
+			"toast": {
+				"person_added_success": "تم إضافة شخص إضافي إلى الغرفة <strong>{{roomNo}}</strong>",
+				"person_removed_success": "تم إزالة الشخص الإضافي من الغرفة <strong>{{roomNo}}</strong>"
+			}
+		},
+		"tariff_popup": {
+			"serial_number": "الرقم التسلسلي",
+			"room_type": "نوع الغرفة",
+			"base_rent": "الإيجار الأساسي",
+			"gst": "GST",
+			"net_rent": "الإيجار الصافي",
+			"stay_length": "مدة الإقامة",
+			"room_number": "الغرفة رقم",
+			"number_of_rooms": "عدد الغرف",
+			"subtotal": "المجموع الفرعي",
+			"total": "الإجمالي",
+			"extra_person": "شخص إضافي"
+		},
+		"cancel_reservation": {
+			"reason_for_reservation_cancel": "سبب إلغاء الحجز",
+			"select_reason": "اختر السبب",
+			"cancel": "إلغاء",
+			"confirm": "تأكيد",
+			"reasons": {
+				"booking_errors": "أخطاء الحجز",
+				"change_of_plans": "تغيير الخطط",
+				"event_cancellations": "إلغاء الفعاليات",
+				"health_issues_or_emergencies": "المشاكل الصحية أو الطوارئ",
+				"others": "أخرى",
+				"room_unavailability": "عدم توفر الغرفة",
+				"room_shift": "تحويل الغرفة",
+				"unsatisfactory_reviews": "التقييمات غير المرضية",
+				"weather_conditions": "ظروف الطقس"
+			}
+		}
+	},
+	"tableType": {
+		"arrival": "الوصول",
+		"departure": "رحيل",
+		"all": "الكل"
+	},
+	"allFilter": {
+		"someFilter": "بعض الفلاتر",
+		"anotherFilter": "فلتر آخر"
+	},
+	"payment_mode_dropdown": {
+		"cash": "نقد",
+		"card": "نقد",
+		"UPI": "UPI",
+		"NEFT": "NEFT",
+		"paid_via_OTA": "via OTA"
+	},
+	"id_type_dropdown": {
+		"aadhaar": "آدهار",
+		"driving_license": "رخصة القيادة",
+		"voter_id": "بطاقة الناخب",
+		"others": "أخرى"
+	},
+	"booking_source_dropdown": {
+		"online": "عبر الإنترنت",
+		"offline": "أوفلاين",
+		"walk_in": "تسجيل الوصول مباشر"
+	},
+	"stay_type_dropdown": {
+		"day": "يوم",
+		"noon": "منتصف اليوم"
+	},
+	"reservation_type_dropdown": {
+		"confirmed": "مؤكد",
+		"tentative": "مؤقت"
+	},
+	"days": {
+		"today": "اليوم",
+		"sunday": "الأحد",
+		"monday": "الإثنين",
+		"tuesday": "الثلاثاء",
+		"wednesday": "الأربعاء",
+		"thursday": "الخميس",
+		"friday": "الجمعة",
+		"saturday": "السبت"
+	},
+	"months": {
+		"january": "يناير",
+		"february": "فبراير",
+		"march": "مارس",
+		"april": "أبريل",
+		"may": "مايو",
+		"june": "يونيو",
+		"july": "يوليو",
+		"august": "أغسطس",
+		"september": "سبتمبر",
+		"october": "أكتوبر",
+		"november": "نوفمبر",
+		"december": "ديسمبر"
+	}
+}

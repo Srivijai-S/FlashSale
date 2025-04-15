@@ -1,0 +1,611 @@
+{
+	"layout": {
+		"sidebar": {
+			"dashboard": "डैशबोर्ड",
+			"guest history": "अतिथि इतिहास",
+			"housekeeping": "हाउसकीपिंग",
+			"settings": "सेटिंग्स",
+			"facility_settings" : "सुविधा सेटिंग्स"
+		},
+		"topbar": {
+			"dashboard": "डैशबोर्ड",
+			"guest history": "अतिथि इतिहास",
+			"housekeeping": "हाउसकीपिंग",
+			"settings": "सेटिंग्स",
+			"facility_settings" : "सुविधा सेटिंग्स",
+			"update_profile" : "प्रोफ़ाइल अपडेट करें",
+			"today": "आज"
+		},
+		"profile_icon_menu": {
+            "manage_account": "खाता प्रबंधित करें",
+            "logout": "लॉगआउट"
+        },
+		"plus_icon": {
+            "check_in": "चेक इन",
+            "check_out": "चेक आउट",
+            "reservation": "आरक्षण"
+        }
+	},
+	"pages": {
+		"login_page" :{
+			"welcome_to_guest_hives" : "गेस्ट हाइव्स में आपका स्वागत है",
+			"login_to_your_account": "अपने अकाउंट में लॉग इन करें",
+			"username" : "उपयोगकर्ता नाम",
+			"password" : "पासवर्ड",
+			"login" : "लॉग इन करें",
+			"alerts" : {
+				"please_enter_the_username": "कृपया उपयोगकर्ता नाम दर्ज करें",
+                "please_enter_the_password": "कृपया पासवर्ड दर्ज करें",
+                "invalid_username_or_password": "अमान्य उपयोगकर्ता नाम या पासवर्ड",
+                "log_out_successfully": "सफलतापूर्वक लॉगआउट हो गया"
+			}
+		},
+		"logout": {
+            "are_you_sure_you_want_to_logout": "क्या आप सुनिश्चित हैं कि आप लॉगआउट करना चाहते हैं?",
+            "yes": "हाँ",
+            "no": "नहीं"
+        },
+        "manage_account_page": {
+				"update_profile": "प्रोफ़ाइल अपडेट करें",
+				"admin": "व्यवस्थापक",
+				"receptionist": "कक्ष सेवक",
+				"login_name": "लॉगिन नाम",
+				"username": "उपयोगकर्ता नाम",
+				"contact": "मोबाइल नंबर",
+				"password": "पासवर्ड",
+				"confirm_password": "पासवर्ड की पुष्टि करें",
+				"confirm": "पुष्टि करें",
+				"cancel": "रद्द करें"
+        },
+		"home_page": {
+			"room_occupancy": {
+				"room_occupancy": "कक्ष अधिभोग",
+				"total_rooms": "कुल कमरे",
+				"vacant": "खाली",
+				"blocked": "अवरोधित",
+				"allocated": "आवंटित",
+				"occupied": "व्यस्त",
+				"reserved": "आरक्षित"
+			},
+			"house_keeping": {
+				"clean": "साफ",
+				"assigned": "सौंपा गया",
+				"dirty": "गंदा"
+			},
+			"room_view_section":{
+				"showing_results_for" : "के लिए परिणाम दिखा रहे हैं",
+				"all": "सभी",
+				"room_view" : "कमरे का दृश्य",
+				"floor_view" : "मंजिल दृश्य",
+				"search_by_room_number" :"कमरा नंबर से खोजें",
+				"reset" : "रीसेट करें",
+				"expand" : "विस्तार करना",
+				"vacant_room" : "खाली कमरा",
+				"occupied_room" : "व्यस्त कमरा",
+				"reserved_room" : "आरक्षित कमरा",
+				"check_in" : "चेक इन",
+				"move_to_dirty" : "गंदे की ओर बढ़ें",
+				"block" : "ब्लॉक",
+				"check_out" : "चेक आउट",
+				"guest_details" : "अतिथि विवरण",
+				"room_shift" : "कमरा शिफ्ट"
+			},
+			"todays_arrival_and_departure" :{
+				"todays_arrival_and_departure":"आज का आगमन एवं प्रस्थान",
+				"arrival" : "आगमन",
+				"arrived" : "पहुँचा",
+				"expected" : "अपेक्षित",
+				"departure" : "प्रस्थान",
+				"departed" : "प्रस्थान कर गए"
+			},
+			"todays_activity":{
+				"todays_activity" : "आज की गतिविधि",
+				"arrival" : "आगमन",
+				"departure" : "प्रस्थान",
+				"payment_due" : "भुगतान देय",
+				"due" : "देय",
+				"piad" : "भुगतान किया",
+				"record_payment" : "भुगतान रिकॉर्ड करें",
+				"payment_history" : "भुगतान इतिहास",
+				"no_data_found" : "डाटा प्राप्त नहीं हुआ"
+			},
+			"block_room_popup" :{
+				"remarks" : "टिप्पणियाँ",
+				"cancel" : "रद्द करें",
+				"save" : "बचाना",
+				"please_be_aware_of_the_dates_to_avoid_scheduling_issues" : "कृपया समय-निर्धारण संबंधी समस्याओं से बचने के लिए तारीखों का ध्यान रखें।"
+			},
+			"alert" :{
+				"no_results_found" : "कोई परिणाम नहीं मिला",
+				"enter_a_room_number_to_search" : "खोजने के लिए एक कमरे का नंबर दर्ज करें"
+			}
+		},
+		"guest_history_page" : {
+			
+				"search_by_name_or_number" : "नाम या नंबर से खोजें",
+				"rows_per_page" : "प्रति पृष्ठ पंक्तियाँ",
+				"tabs":{
+					"arrival" : "आगमन",
+					"departure" : "प्रस्थान",
+					"all" : "सभी",
+					"drafts" : "ड्राफ्ट",
+					"blacklist" : "ब्लैकलिस्ट"
+				},
+				"filters": {	
+				"today" : "आज",
+				"yesterday" : "कल",
+				"this_week" : "इस सप्ताह",
+				"last_week" : "पिछले सप्ताह",
+				"last_month" : "पिछला महीना",
+				"custom" : "रिवाज़"
+				},
+				"custom":{
+					"from_date" : "तिथि से",
+					"to_date" : "तारीख तक",
+					"select_date" : "तारीख़ चुनें",
+					"cancel" : "रद्द करें",
+					"search" : "खोज"
+				},
+				"table":{
+				"serial_number" : "सीरियल नंबर",
+				"guest_name" : "अतिथि का नाम",
+				"number_of_rooms" : "कमरों की संख्या",
+				"purpose" : "उद्देश्य",
+				"booking_source" : "बुकिंग स्रोत",
+				"occupation" : "पेशा",
+				"action" : "कार्रवाई",
+				"address" : "पता",
+				"mail" : "मेल",
+				"signature" : "हस्ताक्षर",
+				"document" : "दस्तावेज",
+				"heading_to" : "जाने वाला",
+				"room_number" : "रूम नंबर",
+				"room_type" :"कमरे के प्रकार",
+				"stay_type" : "रहने का प्रकार",
+				"pax" : "अतिथियों",
+				"arrival" : "आगमन",
+				"departure" : "प्रस्थान",
+				"extra_person" : "अतिरिक्त व्यक्ति",
+				"room_rent" : "कमरे का किराया",
+				"blocked_on" : "पर अवरोधित"
+				},
+				"action_button" :{
+					"record_payment" : "भुगतान रिकॉर्ड करें", 
+					"check_out" : "चेक आउट",
+					"payment_history" : "भुगतान इतिहास",
+					"edit_arrival" : "आगमन संपादित करें",
+					"room_shift" : "कमरा शिफ्ट",
+					"room_shift_history" : "कमरा शिफ्ट इतिहास",
+					"extend_stay" : "प्रवास बढ़ाएँ",
+					"delete" : " मिटाना",
+					"print_invoice" : "चालान प्रिंट करें",
+					"block" : "ब्लॉक",
+					"blocked" : "अवरोधित",
+					"unblock" : "अनब्लॉक करें",
+					"edit_details": "विवरण संपादित करें",
+                	"undo_departure": "प्रस्थान पूर्ववत करें"
+				},
+				"block_guest_popup" :{
+					"please_enter_the_reason_for_blocking" : "कृपया ब्लॉक करने का कारण दर्ज करें",
+					"reason_for_blocking" : "ब्लॉक करने का कारण",
+					"cancel" : "रद्द करें",
+					"save" : "बचाना"
+				},
+				"undo_departure_popup": {
+					"do_you_want_to_undo_this_check-out": "क्या आप इस चेक-आउट को पूर्ववत करना चाहते हैं?",
+					"yes": "हाँ",
+					"no": "नहीं"
+				},
+				"alert" : {
+					"check_in_details_for_x_updated_successfully" : "x के लिए चेक-इन विवरण सफलतापूर्वक अपडेट किया गया",
+					"payment_by_x_successfully_saved" : "x द्वारा भुगतान सफलतापूर्वक सहेजा गया",
+					"are_you_sure_you_want_to_delete_the_guest_info" : "क्या आप वाकई अतिथि जानकारी हटाना चाहते हैं",
+					"are_you_sure_you_want_to_delete" : "क्या आप आश्वस्त है कि आपको डिलीट करना है",
+					"draft_of_x_successfully_updated" : "x का ड्राफ्ट सफलतापूर्वक अद्यतन किया गया",
+					"draft_of_x_successfully_deleted" : "x का ड्राफ्ट सफलतापूर्वक हटा दिया गया",
+					"x_blocked_successfully" : "x ने सफलतापूर्वक ब्लॉक कर दिया",
+					"are_you_sure_you_want_to_unblock" : "क्या आप वाकई x को अनब्लॉक करना चाहते हैं?",
+					"x_unblocked_successfully" : "x को सफलतापूर्वक अनब्लॉक कर दिया गया",
+					"reverted_successfully": "सफलतापूर्वक पूर्ववत किया गया",
+                	"departure_for_x_is_successfully_updated": "[] के लिए प्रस्थान विवरण सफलतापूर्वक अपडेट किया गया"
+				}
+		},
+		"housekeeping" : {
+			"assign_task":{
+				"housekeeping" : "हाउसकीपिंग",
+				"search_by_room_number" : "कमरा नं. के आधार पर खोजें",
+				"all_room_types" : "सभी प्रकार के कमरे",
+				"all_floors" : "सभी मंजिलें",
+				"housekeeper" : "नौकरानी",
+				"dirty" : "गंदा",
+				"assigned" : "सौंपा गया",
+				"clean" : "साफ",
+				"vacant" : "खाली",
+				"occupied" : "व्यस्त",
+				"reserved" : "आरक्षित",
+				"cleaning_summary" : "सफ़ाई सारांश",
+				"assign_room_number": "कमरा आवंटित करें.नं.",
+				"select_housekeepers" : "हाउसकीपर्स का चयन करें",
+				"alert":{
+					"are_you_sure_you_want_to_move_room_{x}_to_dirty_rooms": "क्या आप वाकई कमरा x को गंदे कमरों में स्थानांतरित करना चाहते हैं",
+					"are_you_sure_you_want_to_move_room_{x}_to_clean_rooms" : "क्या आप वाकई कमरा x को साफ कमरों में स्थानांतरित करना चाहते हैं",
+					"room_x_assigned_for_cleaning" : "कमरा x सफाई के लिए सौंपा गया है",
+					"room_x_moved_to_clean_rooms" : "कमरा x स्वच्छ कमरे में ले जाया गया",
+					"room_x_moved_to_dirty_rooms" : "कमरा x गंदे कमरे में ले जाया गया",
+					"housekeeper_x_successfully_added" : "हाउसकीपर x सफलतापूर्वक जोड़ा गया",
+					"housekeeper_x_details_updated_successfully" : "हाउसकीपर x का विवरण सफलतापूर्वक अपडेट किया गया",
+					"are_you_sure_you_want_to_delete_housekeeper" : "क्या आप वाकई हाउसकीपर को हटाना चाहते हैं",
+					"housekeeper_x_deleted_successfully" : "हाउसकीपर x सफलतापूर्वक हटा दिया गया",
+					"please_fill_the_name" : "कृपया नाम भरें",
+					"please_enter_the_age" : "कृपया आयु दर्ज करें",
+					"please_enter_the_address" : "कृपया पता दर्ज करें",
+					"please_select_the_gender" : "कृपया जेंडर चुनें",
+					"please_enter_the_phone_number" : "कृपया फ़ोन नंबर दर्ज करें",
+					"please_select_the_state" : "कृपया राज्य का चयन करें",
+					"please_select_the_city" : "कृपया शहर का चयन करें",	
+					"please_enter_a_valid_phone_number" : "एक मान्य दूरभाष क्रमांक दर्ज करे",
+					"Please_upload_id_proof" : "कृपया पहचान प्रमाण अपलोड करें",
+					"please_upload_photo" : "कृपया फोटो अपलोड करें"
+				}
+			},
+			"housekeeper":{
+				"search_by_name_or_number" : "नाम या नंबर से खोजें",
+				"assign_task" : "कार्य सौंपें",
+				"add_housekeeper" : "हाउसकीपर जोड़ें",
+				"table":{
+					"serial_number" : "सीरियल नंबर",
+					"name" : "नाम",
+					"age" : "आयु",
+					"gender" : "जेंडर",
+					"address" : "पता",
+					"id_proof" : "पहचान प्रमाण",
+					"actions" : "क्रियाएँ"
+				},
+				"housekeeper_form" : {
+					"name" :"नाम",
+					"age" : "आयु",
+					"address" : "पता",
+					"gender" : "जेंडर",
+					"contact_number" : "संपर्क संख्या",
+					"state" : "राज्य",
+					"city" : "शहर",
+					"upload_id_proof" : "पहचान प्रमाण अपलोड करें",
+					"upload_photo" : "फोटो अपलोड करें",
+					"cancel" : "रद्द करें",
+					"save" : "बचाना",
+					"update" : "अपडेट"
+				},
+				"delete_housekeeper_popup" :{
+					"are_you_sure_you_want_to_delete_housekeeper_?" : "क्या आप वाकई हाउसकीपर को हटाना चाहते हैं?",
+					"yes" : "हाँ",
+					"no" : "नहीं"
+				}
+			}
+		},		
+		"facility_settings" : {
+			"total_number_of_room" : "कुल कमरों की संख्या",
+			"switch_to_floor_view" : "फ़्लोर व्यू पर स्विच करें",
+			"switch_to_room_view" : "कमरे के दृश्य पर स्विच करें",
+			"room_type" : "कमरे के प्रकार",
+			"room_type_form" :{
+				"enter_room_type" : "कमरे का प्रकार दर्ज करें",
+				"select_bed_type" : "बिस्तर का प्रकार चुनें",
+				"select_maximum_number_of_adults" : "अधिकतम वयस्क चुनें",
+				"select_maximum_number_of_children" : "अधिकतम बच्चे चुनें",
+				"enter_room_base_price" : "कमरे का मूल मूल्य दर्ज करें",
+				"enter_rent_per_person" : "प्रति व्यक्ति किराया दर्ज करें",
+				"per_day" : "प्रति दिन",
+				"save" : "बचाना",
+				"cancel" : "रद्द करें",
+				"update" : "अपडेट"
+			},
+			"room_number_form" : {
+				"enter_room_number" : "कमरा नंबर दर्ज करें",
+				"select_floor" : "मंजिल चुनें",
+				"select_amenities" : "सुविधाएँ चुनें",
+				"cleaning_status" : "सफाई की स्थिति",
+				"save" : "बचाना",
+				"cancel" : "रद्द करें"
+			},
+			"alerts":{
+				"room_type_is_required" : "कमरे का प्रकार आवश्यक है",
+				"bed_type_is_required" : "बिस्तर का प्रकार आवश्यक है",
+				"max_adult_is_required" : "अधिकतम वयस्क आवश्यक है",
+				"max_children_is_required" : "अधिकतम बच्चे आवश्यक हैं",
+				"base_price_is_required" : "आधार मूल्य आवश्यक है",
+				"rent_per_person_is_required" : "प्रति व्यक्ति किराया आवश्यक है",
+				"room_number_is_required" :"कमरा नंबर आवश्यक है",
+				"floor_is_required" : "मंजिल की आवश्यकता है",
+				"amenity_is_required" : "सुविधा की आवश्यकता है",
+				"cleaning_status_is_required" : "सफाई की स्थिति की आवश्यकता है",
+				"please_enter_a_room_number" : "कृपया कमरा नंबर दर्ज करें",
+				"please_select_floor" : "कृपया एक मंजिल चुनें",
+				"please_select_amenity" : "कृपया सुविधा का चयन करें",
+				"please_select_cleaning_status" : "कृपया सफाई स्थिति का चयन करें"
+			}
+		},
+		"booking_form" :{
+			"customer_information" : "ग्राहक जानकारी",
+			"nationality" : "राष्ट्रीयता",
+			"indian" : "भारतीय",
+			"foreigner" : "परदेशी",
+			"mobile_number" : "मोबाइल नंबर",
+			"alternate_mobile_number" :"वैकल्पिक मोबाइल नंबर",
+			"optional" : "वैकल्पिक",
+			"mail_id" : "मेल आईडी",
+			"id_type" : "आईडी प्रकार",
+			"name" : "नाम",
+			"country" : "देश",
+			"state" : "राज्य",
+			"city" : "शहर",
+			"address" : "पता",
+			"occupation" : "पेशा",
+			"booking_source" : "बुकिंग स्रोत",
+			"purpose_of_visit" : "यात्रा का उद्देश्य",
+			"room_information" : "कमरे की जानकारी",
+			"inclusive_of_tax" : "कर सहित",
+			"check_in_date_and_time" : "चेक इन तिथि और समय",
+			"check_out_date_and_time" : "चेक आउट दिनांक और समय",
+			"select_room_type" : "कमरे का प्रकार चुनें" ,
+			"room_number" : "रूम नंबर",
+			"number_of_adults" : "वयस्कों की संख्या",
+			"number_of_children" : "बच्चों की संख्या",
+			"stay_type" : "रहने का प्रकार",
+			"room_rent" : "कमरे का किराया",
+			"billing_information" : "बिलिंग जानकारी",
+			"billing_type" : "बिलिंग प्रकार",
+			"customer" : "ग्राहक",
+			"company" : "कंपनी",
+			"gstin" : "GSTIN",
+			"company_name" : "कंपनी का नाम",
+			"phone_number" : "फ़ोन नंबर",
+			"total_amount" : "कुल राशि",
+			"due_amount" : "देय राशि",
+			"total_advance_paid" : "कुल अग्रिम भुगतान किया गया",
+			"enter_payment" : "भुगतान दर्ज करें",
+			"payment_mode" : "भुगतान मोड",
+			"remarks" :"टिप्पणियाँ",
+			"heading_to" : "जाने वाला",
+			"receipt" : "रसीद",
+			"yes" :"हाँ",
+			"no" :"नहीं",
+			"draft" : "ड्राफ्ट",
+			"check_in" : "चेक इन",
+			"clear" : "स्पष्ट",
+			"upload" : "अपलोड करें",
+			"confirm" : "पुष्टि करना",
+			"clear_signature" : "स्पष्ट हस्ताक्षर",
+			"close" :"बंद करें",
+			"align_your_signature_within_the_frame_and_tap_confirm" : "अपने हस्ताक्षर को फ्रेम के भीतर संरेखित करें और पुष्टि करें पर टैप करें",
+			"front" : "सामने",
+			"back" : "पीछे",
+			"start_uploading_the_front_side_of_the_document" : "दस्तावेज़ का सामने वाला भाग अपलोड करना प्रारंभ करें",
+			"cancel" : "रद्द करें",
+			"quick_reservation": "त्वरित आरक्षण",
+			"reservation_type": "आरक्षण प्रकार",
+            "reservation_price": "आरक्षण मूल्य",
+            "tariff": "दर",
+			"alert":{
+				"mobile_number_is_required": "Mobile Number Is Required",
+				"please_select_the_id_type" : "कृपया आईडी प्रकार चुनें",
+				"please_enter_your_full_name" : "कृपया अपना पूरा नाम दर्ज करें",
+				"please_select_the_state" : "कृपया राज्य का चयन करें",
+				"please_select_the_city" : "कृपया शहर का चयन करें",
+				"please_enter_the_address" : "कृपया पता दर्ज करें",
+				"please_select_booking_source" : "कृपया बुकिंग स्रोत का चयन करें",
+				"check_in_date_must_be_a_valid_date": "Check In Date Must Be A Valid Date",
+				"check_out_date_must_be_a_valid_date" : "चेक-आउट तिथि वैध तिथि होनी चाहिए",
+				"check_out_date_must_be_greater_than_check_in_date" : "चेक-आउट तिथि चेक-इन तिथि से अधिक होनी चाहिए",
+				"room_type_is_required" : "कमरे का प्रकार आवश्यक है",
+				"room_number_is_required" : "कमरा नंबर आवश्यक है",
+				"number_of_adults_is_required" : "वयस्कों की संख्या आवश्यक है",
+				"number_of_children_is_required" : "बच्चों की संख्या आवश्यक है",
+				"stay_type_is_required" : "ठहरने का प्रकार आवश्यक है",
+				"room_rent_is_required" : "कमरे का किराया आवश्यक है",
+				"please_enter_a_valid_email_address" : "कृपया एक मान्य ईमेल पता प्रविष्ट करें",
+				"payment_should_be_lesser_than_the_total_amount" : "भुगतान कुल राशि से कम होना चाहिए",
+				"payment_mode_is_required" : "भुगतान मोड आवश्यक है",
+				"please_upload_a_image" : "कृपया एक छवि अपलोड करें",
+				"front_portion_of_the_image_is_missing" : "चित्र का अगला भाग गायब है",
+				"back_portion_of_the_image_is_missing" : "चित्र का पिछला भाग गायब है",
+				"guest_signature_required" : "अतिथि का हस्ताक्षर आवश्यक है",
+				"checkout_date_for_this_room_is" : "इस कमरे के लिए चेक-आउट तारीख है",
+				"guest_image_required" : "अतिथि छवि आवश्यक है",
+				"customer_blocked_due_to" : "के कारण ग्राहक को ब्लॉक कर दिया गया",
+				"check_in_for_x_successful" : "x के लिए चेक इन सफल हुआ",
+				"check_out_for_x_successful" : "x के लिए चेक-आउट सफल",
+				"draft_for_[]_successfully_saved": "[] के लिए ड्राफ्ट सफलतापूर्वक सहेजा गया",
+				"reservation_type_is_required": "आरक्षण प्रकार आवश्यक है",
+                "reservation_for_[]_successful": "[] के लिए आरक्षण सफल रहा"
+			}
+		}, "reservation_list_page": {
+            "select_room_type": "कमरे का प्रकार चुनें",
+            "search_by_name_or_number": "नाम या नंबर से खोजें",
+            "new_reservation": "नया आरक्षण",
+            "serial_number": "सीरियल नंबर",
+            "guest_name": "अतिथि का नाम",
+            "mail_id": "मेल आईडी",
+            "address": "पता",
+            "number_of_rooms": "कमरों की संख्या",
+            "advance_paid": "अग्रिम भुगतान",
+            "actions": "क्रियाएँ",
+            "room_number": "रूम नंबर",
+            "room_type": "कमरे के प्रकार",
+            "pax": "अतिथियों",
+            "arrival": "आगमन",
+            "departure": "प्रस्थान",
+            "booked_on": "पर बुक किया गया",
+            "room_rent": "कमरे का किराया",
+            "action": {
+                "check_in": "चेक इन",
+                "payment_history": "भुगतान इतिहास",
+                "record_payment": "भुगतान रिकॉर्ड करें",
+                "cancel_reservation": "आरक्षण रद्द करें",
+                "room_shift": "कमरा शिफ्ट",
+                "extend_stay": "प्रवास बढ़ाएँ",
+                "edit_reservation": "आरक्षण संपादित करें"
+            },
+            "alert": {
+                "reservation_for_[]_successfully_updated": "[] के लिए आरक्षण सफलतापूर्वक अपडेट किया"
+            }
+        },
+        "invoice_page": {
+            "tax_invoice": "कर चालान",
+            "invoice_date": "चालान तिथि",
+            "invoice_number": "चालान संख्या",
+            "GSTIN": "GSTIN",
+            "bill_to": "बिल प्राप्तकर्ता",
+            "contact": "मोबाइल नंबर",
+            "email": "मेल आईडी",
+            "serial_number": "सीरियल नंबर",
+            "description": "विवरण",
+            "room": "कमरा",
+            "hsn_sac": "HSN/SAC",
+            "base_price": "मूल मूल्य",
+            "days": "दिन",
+            "sgst": "SGST",
+            "cgst": "CGST",
+            "net_rent": "शुद्ध किराया",
+            "subtotal": "उप-योग",
+            "rounding_off": "राउंडिंग ऑफ",
+            "total": "कुल",
+            "regardless_of_the_billing_instruction_you_are_held_personally_liable_for_the_total_amount_of_this_bill": "बिलिंग निर्देशों की परवाह किए बिना, आप इस बिल की कुल राशि के लिए व्यक्तिगत रूप से जिम्मेदार हैं",
+            "customer_signature": "ग्राहक का हस्ताक्षर",
+            "cashier_signature": "कैशियर का हस्ताक्षर"
+        },
+        "receipt_page": {
+            "payment_receipt": "भुगतान रसीद",
+            "receipt_number": "रसीद संख्या",
+            "payment_date": "भुगतान तिथि",
+            "GSTIN": "GSTIN",
+            "customer_name": "ग्राहक का नाम",
+            "amount_received_in_words": "राशि शब्दों में प्राप्त हुई",
+            "payment_mode": "भुगतान मोड",
+            "received_amount": "प्राप्त राशि",
+            "customer_signature": "ग्राहक का हस्ताक्षर",
+            "cashier_signature": "कैशियर का हस्ताक्षर"
+        }
+	},
+	"common_components": {
+		"buttons": {
+            "next": "अगला"
+        },
+        "alert": {
+            "something_went_wrong": "कुछ गलत हो गया"
+        },
+		"record_payment" :{
+			"record_payment" :"भुगतान रिकॉर्ड करें",
+			"date" : "तारीख",
+			"amount" : "मात्रा",
+			"payment_mode" : "भुगतान मोड",
+			"remarks" : "टिप्पणियाँ",
+			"payment_due" : "भुगतान देय",
+			"cancel" : "रद्द करें",
+			"save" : "बचाना"
+		},
+		"payments" : {
+			"payments" : "भुगतान",
+			"serial_number" : "सीरियल नंबर",
+			"date" : "तारीख",
+			"amount_paid" : "भुगतान की गई राशि",
+			"payment_mode" : "भुगतान मोड",
+			"remarks" : "टिप्पणियाँ",
+			"action" :"कार्रवाई",
+			"due" : "देय",
+			"total" : "कुल"
+		},
+		"extend_stay_popup": {
+            "extend_stay": "प्रवास बढ़ाएँ",
+            "check_in_date_and_time": "चेक इन तिथि और समय",
+            "check_out_date_and_time": "चेक आउट दिनांक और समय",
+            "confirm": "पुष्टि करना",
+            "cancel": "रद्द करें",
+            "alert": {
+                "check_out_date_must_be_greater_than_previous_check_out_date": "चेक-आउट तारीख पहले की चेक-आउट तारीख से अधिक होनी चाहिए",
+                "check_in_for_in_room_is_successfully_extended": "कमरे में चेक-इन सफलतापूर्वक बढ़ा दिया गया है"
+            }
+        },
+        "room_shift_popup": {
+            "room_shift": "कमरा शिफ्ट",
+            "room_type": "कमरे के प्रकार",
+			"room_number" :"रूम नंबर",
+            "number_of_adults": "वयस्कों की संख्या",
+            "number_of_children": "बच्चों की संख्या",
+            "room_rent": "कमरे का किराया",
+            "select_room_shift_reason": "कमरे का परिवर्तन कारण चुनें",
+            "inclusive_of_tax": "कर सहित",
+            "cancel": "रद्द करें",
+            "confirm": "पुष्टि करना",
+            "alert": {
+                "room_number_is_required": "कमरा नंबर आवश्यक है",
+                "number_of_adults_is_required": "वयस्कों की संख्या आवश्यक है",
+                "stay_type_is_required": "ठहरने का प्रकार आवश्यक है",
+                "room_rent_is_required": "कमरे का किराया आवश्यक है",
+                "room_shift_reason_is_required": "कमरे का परिवर्तन कारण आवश्यक है",
+                "room_shifted_for_[]_from_room_[]_to_room_[]": "कमरा [] के लिए कमरे [] से कमरे [] में स्थानांतरित किया गया है",
+                "another_reservation_found_on_the_selected_date": "चुने गए तारीख पर एक और आरक्षण मिला है",
+                "extend_room_stay_before_shifting": "स्थानांतरण से पहले कमरे का प्रवास बढ़ाएं"
+            }
+        },
+        "add_person_popup": {
+            "add_person": "व्यक्ति जोड़ें",
+            "name": "नाम",
+            "rent": "किराया",
+            "confirm": "पुष्टि करना",
+            "cancel": "रद्द करें",
+            "alert": {
+                "name_is_required": "नाम आवश्यक है",
+                "rent_is_required": "किराया आवश्यक है",
+                "extend_stay_before_adding_the_person": "व्यक्ति जोड़ने से पहले प्रवास बढ़ाएँ",
+                "maximum_occupancy_reached_for_this_room": "इस कमरे के लिए अधिकतम क्षमता पहुँच चुकी है",
+                "are_you_sure_you_want_to_add_a_person": "क्या आप सुनिश्चित हैं कि आप एक व्यक्ति जोड़ना चाहते हैं",
+                "extra_person_added_to_room_[]": "अतिरिक्त व्यक्ति को कमरे [] में जोड़ा गया है"
+            }
+        },
+		"payment_mode_dropdown" : {
+			"cash" : "नकद",
+			"card" : "कार्ड",
+			"UPI" : "UPI",
+			"NEFT" : "NEFT",
+			"paid_via_OTA" : "OTA के माध्यम से भुगतान"
+		},
+		"id_type_dropdown" : {
+			"aadhaar" : "आधार",
+			"driving_license" : "ड्राइविंग लाइसेंस",
+			"voter_id" : "मतदाता पहचान पत्र",
+			"others" : "अन्य"
+		},
+		"booking_source_dropdown" :{
+			"online" : "ऑनलाइन",
+			"offline" : "ऑफलाइन",
+			"walk_in" : "वॉक इन"
+		},
+		"days":{
+			"Sunday": "रविवार",
+			"Monday": "सोमवार",
+			"Tuesday": "मंगलवार",
+			"Wednesday": "बुधवार",
+			"Thursday": "गुरुवार",
+			"Friday": "शुक्रवार",
+			"Saturday": "शनिवार"
+		},
+		"months" :{
+			"January": "जनवरी",
+			"February": "फ़रवरी",
+			"March": "मार्च",
+			"April": "अप्रैल",
+			"May": "मई",
+			"June": "जून",
+			"July": "जुलाई",
+			"August": "अगस्त",
+			"September": "सितंबर",
+			"October": "अक्टूबर",
+			"November": "नवंबर",
+			"December": "दिसंबर"
+		},
+		"stay_type_dropdown":{
+			"day" : "दिन",
+			"noon" : "दोपहर"
+		}
+	}
+}
