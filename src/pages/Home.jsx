@@ -17,9 +17,9 @@ import ProductsPageGrid from "../components/ProductsPageGrid";
 import "animate.css";
 import Airtable from "airtable";
 import { slides } from "../../src/assets/Banner";
-const airTable = new Airtable({ apiKey: import.meta.env.VITE_TABLE_KEY }).base(
-  "appj3zPaunZeCaqUM"
-);
+const airTable = new Airtable({
+  apiKey: import.meta.env.VITE_TABLE_KEY,
+}).base(import.meta.env.VITE_AIRTABLE_BASE_ID);
 
 const Home = () => {
   const { featured_Products, products_loading, products_error } =
