@@ -1,5 +1,3 @@
-![main logo](./public/logo.svg)
-
 <br>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Srivijai-S/FlashSale)
