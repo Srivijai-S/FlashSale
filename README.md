@@ -35,7 +35,8 @@
 
 ---
 
-## 🛠 Installation & Setup
+Demo
+https://flashsale-platform.netlify.app/
 
 Clone the repository and set up your environment:
 
