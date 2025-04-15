@@ -16,9 +16,11 @@
 - **User Authentication**: Secure login and registration for personalized shopping.
 - **Add to Cart / Checkout**: Simple and intuitive cart management.
 - **Payment Integration**: Safe and secure payment gateway for hassle-free transactions.
-![image](https://github.com/user-attachments/assets/6289351c-97dc-4a95-8828-917ebeb2e8b9)
+![image](https://github.com/user-attachments/assets/ad72bfab-bd49-480b-8914-2f4ba711d17f)
+![image](https://github.com/user-attachments/assets/b2ab0f6c-8e5b-4895-9882-d2aa84907347)
+![image](https://github.com/user-attachments/assets/ac1c55f6-d07a-48e8-a745-dda1dc83359b)
 
-!![image](https://github.com/user-attachments/assets/1ae979df-0466-431a-814f-9eaceed539ee)
+
 
 
 ---
