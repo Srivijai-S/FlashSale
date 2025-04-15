@@ -77,7 +77,7 @@ export default function LanguageSwitcher() {
             fontFamily: "Inter",
             fontSize: "0.833vw",
             fontWeight: "500px",
-            color: "rgba(76, 76, 76, 1)",
+            color: "rgba(76, 76, 76, 2)",
             textAlign: "left",
             textUnderlinePosition: "from-font",
             textDecorationSkipInk: "none",
