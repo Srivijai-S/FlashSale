@@ -27,13 +27,10 @@
 
 ## 🌟 Technologies Used
 
-- **Frontend**: ReactJS, HTML5, CSS3, TailwindCSS
-- **Backend**: Node.js, Express
-- **Database**: MongoDB
-- **Authentication**: JWT (JSON Web Tokens)
-- **Payment Integration**: Stripe/PayPal API
-
-![Tech Stack](https://your-image-url-here.com/tech-stack.png)
+- **Frontend**: ReactJS, HTML5, CSS3,MUI
+- **Database**: AIRTABLE
+- **Authentication**: FIREBASE(Google)
+- **Payment Integration**: RazorPAY(WIP)
 
 ---
 
